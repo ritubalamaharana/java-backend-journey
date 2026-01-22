@@ -13,7 +13,7 @@ public class LargestOfThree {
         if(num1>num2 && num1>num3){
             System.out.println(num1+ " is largest.");
         }
-        else if(num2>num3 && num2>num3){
+        else if(num2>num1 && num2>num3){
             System.out.println(num2+ " is largest.");
         }
         else{
@@ -22,4 +22,5 @@ public class LargestOfThree {
         n.close();
     }
 }
+
 
